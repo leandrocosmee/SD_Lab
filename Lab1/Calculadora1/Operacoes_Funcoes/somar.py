@@ -1,0 +1,8 @@
+def somar(x: float, y: float) -> float:
+    """
+    Soma dois números
+    :param x: valor a somar
+    :param y: valor a somar
+    :return: retorna o resultado da soma
+    """
+    return x + y

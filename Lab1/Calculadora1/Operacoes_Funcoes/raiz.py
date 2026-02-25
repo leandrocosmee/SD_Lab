@@ -1,0 +1,11 @@
+from math import sqrt
+def raizquadrada( x: float) -> float:
+    """
+    Calcula a raiz quadrada de um número
+    :param x: valor a calcular a raiz quadrada
+    :return: retorna o resultado da raiz quadrada
+"""
+    if x >= 0:
+        return sqrt(x)
+    else:
+        return "Erro: raiz quadrada de número negativo não é permitida"
